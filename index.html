@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Deinla Library</title>
+    <style>
+        
+        body{
+            background-color: blanchedalmond;
+        }
+
+        .searchbar{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+        }
+
+        .cart{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+        }
+        
+        .img{
+            display: flex;
+            flex-direction:column;
+            float: left;
+        }
+
+        .price{
+            font-style: italic;
+            font-weight: 900;
+        }
+
+        .desc{
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="border-style: double; background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: xx-large;">The Deinla Library</h1>
+    
+    <p style="border-style: ridge; background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Welcome! This is an online library where you can buy affordable, second-hand books!</p>
+    
+    <div class="searchbar">
+    
+        <form>
+    
+            <textarea placeholder="Type the name of the book you want here" cols="60" rows="1" id="booksearch"></textarea>
+
+            <button type="submit" for="booksearch">Search</button>
+    
+        </form>
+        
+    </div>
+
+    <div class="cart">
+    
+        <button type="button">Check your Cart</button>
+
+    </div>
+    
+    <h3 style="border-style: dashed; background-color: rgb(255, 0, 0); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Fiction Recommendations:</h3>
+    
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="Artemis Fowl.jpg" alt="Book1" width="250" height="300"><br>Artemis Fowl, written by Eoin Colfer<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book about a boy named Artemis and his adventures in the fairy world.</li>
+        
+        <span class="desc">Price:</span>
+        
+        <li><span class="price">400 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="Alchemist.jpg" alt="Book1" width="250" height="300"><br>The Alchemist, written by Paulo Coelho<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book about how a boy named Santiago traveled far and wide, meeting new people and learning new things, in order to find a treasure.</li>
+        
+        <span class="desc"> Price: </span>
+
+        <li><span class="price">300 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="ATLWCS.jpg" alt="Book1" width="250" height="300"><br>All the Light We Cannot See, written by Anthony Doerr<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+    
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book about a blind girl named Marie-Laure and a boy named Werner, who live their separate lives during World War 2 until their paths eventually intertwine.</li>
+       
+        <span class="desc"> Price: </span>
+       
+        <li><span class="price">445 pesos</span></li>
+
+    </ul>
+
+    <h3 style="border-style: dashed; background-color: rgb(255, 0, 0); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Educational Books Recommendations:</h3>
+    
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="Math.jpg" alt="Book1" width="250" height="300"><br>Everything You Need to Ace Math in One Big Fat Notebook<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book that gives lots of tips and tricks with Math!</li>
+        
+        <span class="desc"> Price: </span>
+        
+        <li><span class="price">875 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="Science.jpg" alt="Book1" width="250" height="300"><br>Everything You Need to Ace Science in One Big Fat Notebook<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book that will help YOU in understanding Science more.</li>
+        
+        <span class="desc"> Price: </span>
+        
+        <li><span class="price">750 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="History.jpg" alt="Book1" width="250" height="300"><br>Everything You Need to Ace World History in One Big Fat Notebook<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book that contains many different historical events, people, and places that are a must-know.</li>
+        
+        <span class="desc"> Price: </span>
+        
+        <li><span class="price">750 pesos</span></li>
+
+    </ul>
+
+    <h3 style="border-style: dashed; background-color: rgb(255, 0, 0); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Children's Books Recommendations:</h3>
+    
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="TDD.jpg" alt="Book1" width="250" height="300"><br>The Dinosaur Detectives, written by Stephanie Baudet<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book about a boy who has visions on how dinosaurs looked like, and his adventures with his family in searching for fossils and similar items.</li>
+        
+        <span class="desc">Price:</span>
+        
+        <li><span class="price">325 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="K and M.jpg" alt="Book1" width="250" height="300"><br>Kensy and Max: Breaking News, written by Jacqueline Harvey<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc"> Description: </span>
+
+        <li>A book about two siblings, a girl and a boy, namely Kensy and Max, who suddenly wake up in a new place and find some mysterious things happening around them.</li>
+        
+        <span class="desc"> Price: </span>
+        
+        <li><span class="price">250 pesos</span></li>
+
+    </ul>
+
+    <p style="font-weight: bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; background-color: palevioletred; text-align: center;"><img src="DoAWK.jpg" alt="Book1" width="250" height="300"><br>Diary of a Wimpy Kid, written by Jeff Kinney<br><div class="cart"><button type="button">Add to Cart</button></div></p>
+
+    <ul style="font-size:larger; background-color: burlywood; text-align: center;"> <span class="desc">Description: </span>
+
+        <li>A fictional diary of a kid in middle school that tells of his experiences in and out of classes.</li>
+        
+        <span class="desc">Price: </span>
+        
+        <li><span class="price">225 pesos</span></li>
+
+    </ul>
+
+    <h3 style="border-style: dashed; background-color: rgb(255, 0, 0); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Please answer this quick survery, it really helps!</h3>
+
+    <form style="text-align: center;">
+
+        <label style="background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-style: ridge;">Did you enjoy the experience in this website?</label>
+        
+        <br>
+        <br>
+
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="YesButton" value="Yes">
+        
+        <label for="no">No</label>
+        <input type="radio" id="no" name="NoButton" value="No">
+
+        <br>
+        <br>
+
+        <label style="background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-style: ridge;">Any comments? Drop them here:</label>
+
+        <br>
+        <br>
+        
+        <textarea cols="25" rows="12" placeholder="Feedback goes here :)"></textarea>
+
+        <br>
+        <br>
+        
+        <label style="background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-style: ridge;">Write book titles that you would like to see later on and I might acquire them!</label>
+
+        <br>
+        <br>
+        
+        <textarea cols="25" rows="12" placeholder="Recommendations goes here :)"></textarea>
+
+        <br>
+        <br>
+
+        <button type="submit">Submit your comments by pressing me!</button>
+
+    </form>
+
+    <p style="background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-style: ridge;">Message our founder's instagram for business inquiries: <a href="https://www.instagram.com/secale.cereale7/">secale.cereale7</a></p>
+    
+    <ol style="background-color: white; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border-style: ridge;"> References:
+
+        <li>Sweet Cherry Publishing. (2022). The Dinosaur Detectives. Sweet Cherry Publishing. <a href="https://sweetcherrypublishing.com/the-dinosaur-detectives/">https://sweetcherrypublishing.com/the-dinosaur-detectives/</a></li>
+
+    </ol>
+
+</body>
+
+</html>
